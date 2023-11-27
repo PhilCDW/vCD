@@ -1,0 +1,29 @@
+{
+	"ownerRef":{
+		"id":"#orgVdcUrn#",
+		"name":"#orgVdc#"
+	},
+	"name":"#orgNetworkName#",
+	"description":"",
+	"networkType":"ISOLATED",
+	"subnets":{
+		"values":[{
+			"gateway":"#defaultGateway#",
+			"prefixLength":#prefixLength#,
+			"dnsServer1":null,
+			"dnsServer2":null,
+			"dnsSuffix":null,
+			"ipRanges":{
+				"values":[{
+					"startAddress":"#startAddress#",
+					"endAddress":"#endAddress#"
+				}]
+			}
+		}]
+	},
+	"enableDualSubnetNetwork":false,
+	"segmentProfileTemplateRef":{
+		"id":"#segmentProfileTemplateURN#",
+		"name":"#segmentProfileTemplate#"
+	}
+}
