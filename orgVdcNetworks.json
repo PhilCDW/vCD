@@ -1,0 +1,32 @@
+{
+  "ownerRef": {
+    "name": "#orgVdc#",
+    "id": "#orgVdcUrn#"
+  },
+  "name": "#orgNetworkName#",
+  "description" : "",
+  "networkType": "OPAQUE",
+  "subnets": {
+    "values": [
+      {
+        "gateway": "#defaultGateway#",
+        "prefixLength": #prefixLength#,
+        "dnsSuffix": null,
+        "dnsServer1": null,
+        "dnsServer2": null,
+        "ipRanges": {
+          "values": [
+            {
+              "startAddress": "#startAddress#",
+              "endAddress": "#endAddress#"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "enableDualSubnetNetwork": false,
+  "backingNetworkId": "#nsxtSegmentId#",
+  "backingNetworkType": "IMPORTED_T_LOGICAL_SWITCH",
+  "segmentProfileTemplateRef": null
+}
